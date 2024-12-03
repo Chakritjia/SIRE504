@@ -122,36 +122,4 @@ if __name__ == "__main__":
     end_time = time.time()
     print(f"Execution Time: {(end_time - start_time) / 60:.3f} minutes")
 
-# if __name__ == "__main__":
-#     file_name = sys.argv[1]
-#     Qcutoff = int(sys.argv[2])
-#     file_naming = sys.argv[3]
-#     start_time = time.time()
-#     # print(extract_fastq_ids(file_name,limit))
-#     # # print(extract_sequences(file_name, limit).get("barcode01"))
-#     # # print(extract_strand(file_name, limit))
-#     # # print(extract_phred(file_name, limit))
-#     # # Test the filter_read function
-#     # # print("Number of good read:", len(filtered_reads))
-#     # # print(prop_good_total(technology_id,file_name,limit))
-#     # # print(Qmax(file_name,limit))
-#     # # print(QScore(file_name,limit))
-#     # # print(QScore())
-#     # # print(Qmedian(file_name,limit))
-#     # print(filter_goodread(file_name,limit,Qcutoff))
-#     # print(percent_fil_out(file_name,limit))
-#     # pass_report_csv(file_name, limit, Qcutoff, file_naming)
-#     # print(filter_pass_reads(technology_id, file_name, limit))
-#     # print(filter_notpass_reads(technology_id, file_name, limit))
-#     # print(get_bar_readID(file_name, limit))
-#     write_fastq(file_name, file_naming, Qcutoff)
-#     end_time = time.time()
-#     execution_time = end_time - start_time
-#     print (f"Time Use: {execution_time/60:.3f} min")
-
-#     # Test the filter_read function
-#     # technology_id = 3  # Example technology ID for Illumina
-#     # filtered_reads = filter_goodread(technology_id)
-#     # print("Number of good read:", len(filtered_reads))
-#     # print(f"Filtered reads for technology {technology_id}: {filtered_reads}")
 
